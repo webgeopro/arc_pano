@@ -1,0 +1,9 @@
+#deny from all
+#allow from localhost 127.0.0.1
+allow from all
+
+DirectoryIndex index.htm
+
+RewriteEngine off
+
+#RewriteRule !\.(js|ico|gif|jpg|png|css|htm)$ index.htm

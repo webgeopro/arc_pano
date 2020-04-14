@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="author" content="" />
+    
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!--<script type="text/javascript" src="/js/jquery.preloadImages.js"></script>-->
+    <script type="text/javascript" src="js/swfObject.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+	
+    <title>Панорама</title>
+</head>
+
+<body>
+<div id="container">
+    <div id="pano"></div>
+    <div id="info">
+        <p>Объект расположен в живописном уголке г. Красноярска поселок Удачный. 
+        Сосновый лес, свежий воздух и непосредственная близость к реке Енисей (50м) делают это место по истине
+        уникальным уголком, со своим микроклиматом.
+        </p>
+        <p>Участок размером 41,5 соток имеет ровный рельеф, огорожен элегантным, но в тоже время изящным забором. 
+        На арретировании участка очень удачно располагаются сам дом, общей площадью 1038 квадратных метров, 
+        зеленые газоны, элегантные ели, система внешнего освещения и объекты благоустройства. 
+        </p>
+        <p>Здесь есть все, что необходимо для счастья. Собственный сад, где растут сибирские яблоки, фонтан, 
+        и множество беседок и просто уютных уголков. Возможность провести вечер в шумной компании или 
+        уединиться с томиком Пастернака.
+        Дом имеет грамотную и очень  удобную планировку, изящная, где то эксклюзивная мебель, роскошные, 
+        но в тоже время не вычурные интерьеры, здесь очень четко чувствуется вкус и стиль, с которым подошли люди 
+        к созданию этого по сути шедевра.
+        </p>
+        <p>по всем вопросам обращаться по телефону 8 (391) 222-22-22</p> 
+    </div>
+    <div id="plan">
+        <ul id="ulPlan">
+            <li>Место расположения</li>
+            <li><a id="1">Первый этаж</a></li>
+            <li><a id="2">Второй этаж</a></li>
+            <li><a id="3">Цоколь</a></li>
+        </ul>
+        <div id="planImage">
+            <img src="/images/plan1.png" usemap="#navigation1" />
+            <map name="navigation1">'
+                <area id="billiard" alt="Бильярдная" shape="circle" coords="73,331,15" href="" onclick="return getFlash(this)" />
+                <area id="lounge"   alt="Гостиная" shape="circle" coords="469,424,15" href="" onclick="return getFlash(this)" />
+                <area id="hall"     alt="Холл"     shape="circle" coords="623,558,15" href="" onclick="return getFlash(this)" />
+                <area id="kitchen"  alt="Кухня"    shape="circle" coords="768,353,15" href="" onclick="return getFlash(this)" />
+            </map>
+        </div>
+    </div>
+    <div id="bottom"></div>
+</div>
+</body>
+</html>
+<!--
+            <area href="hall"    alt="Холл"     shape="rect" coords="161,166,182,187" />
+            
+            <area href="kitchen" alt="Кухня"    shape="rect" coords="120,0,151,31" />
+            <area href="canteen" alt="Столовая" shape="rect" coords="120,0,151,31" />
+            <area href="cabinet" alt="Кабинет"  shape="rect" coords="120,0,151,31" />
+            <area href="hallway" alt="Прихожая" shape="rect" coords="120,0,151,31" />-->
